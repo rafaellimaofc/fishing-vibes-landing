@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#home">LOGO</a>
+            </h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">intro</a></liS>
+                    <li><a href="#grid-one">fishing lure</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Fishing is like life: not always a catch, but always a story.</h2>
+                <p>Fishing is about much more than just catching a fish. It’s about waking up early, breathing in the scent of nature, listening to the sound of the water, and living moments that stay in your memory. Every trip is a new story, a lesson, and a chance to renew your soul.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/pescaria.svg" alt="pescaria">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>TOP 3 FISH</h2>
+            <p>Peacock Bass
+                The Peacock Bass is famous for its aggressive strikes and powerful fights. Found mainly in the Amazon, it loves topwater lures and guarantees exciting action
+            </p>
+            <p>
+                Golden Dorado
+                The Golden Dorado is known for its speed and acrobatic jumps. Strong and fast, it challenges any angler and is a true trophy in Brazilian rivers.
+
+
+            </p>
+            <p>
+               Trahira
+                The Trahira surprises with sudden attacks near the banks. Small but strong, it’s great fun on light tackle, especially with surface lures.
+            </p>
+        </div>
+
+    </section>
+
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="grid-one-content main-content">
+            <h2 class="grid-main-heading">Fishing lure</h2>
+            <p class="grid-description">My favorite artificial baits.</p>
+            <div class="grid">
+                <article>
+                    <h3>Xuxinha</h3>
+                    <p>Artificial lure Jig Xuxinha: It is known for its compact and attractive design, which imitates small fish or shrimp, making it irresistible to fish.</p>
+                </article>
+                <article>
+                    <h3>Brava</h3>
+                    <p>Artificial lure Brava: The Brava is known for its vibrant and realistic swimming action, which attracts fish even in murky waters or strong currents.</p>
+                </article>
+                <article>
+                    <h3>Tontinha</h3>
+                    <p>Artificial lure Tontinha: The Tontinha stands out for its erratic and fast movement in the water, which simulates the behavior of a frightened prey, triggering the fish’s attack instinct.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="grid-one-content main-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Images that capture the excitement of sport fishing.</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="assets/img/pesca.jpeg" alt="após um dia de pescaria com meu irmão">
+                </div>
+                <div class="gallery-img">
+                    <img src="assets/img/pesca1.jpeg" alt="Beira do rio da minha cidadezinha ">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="assets/img/pesca2.jpeg" alt="dourado que capturei de arpão ">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="assets/img/pesca3.jpeg" alt="dourado que capturei de arpão ">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="assets/img/pesca4.jpeg" alt="isca que eu fiz ">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="assets/img/pesca5.jpeg" alt="meu pai na juventude pescando ">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Share Your Fishing Story!</h2>
+                <p>Got questions or want to share your love for fishing? Just fill out the form — we’ll get back to you in no time!</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/contact.svg" alt="pescaria">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+                    
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Your e-mail">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit">Send message</button>
+                    </div>
+
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a href="https://www.linkedin.com/in/joserafaellima/">Feito com <span class="heart">❤</span> por Rafael Lima</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+
+
+</body>
+</html>
